@@ -72,6 +72,9 @@ The workflow diagram created in Draw.io includes the following steps:
 4. **Return Result:** Display the output to the user.
 5. **End**
 
+![Screenshot 2024-09-03 204704](https://github.com/user-attachments/assets/df12a0e8-7f67-4dbc-abec-6495e1833b21)
+
+
 ## Implementation Details
 
 ### Command Features
