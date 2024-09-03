@@ -113,4 +113,59 @@ The workflow diagram created in Draw.io includes the following steps:
 ### Repository Structure
 The project is stored in a private Git repository with the following structure:
 
+![Screenshot 2024-09-03 171542](https://github.com/user-attachments/assets/894db46f-3b59-4373-bab2-f5dc9bbd5aef)
+
+
+### Versioning Strategy
+- **Versioning Format:** Semantic Versioning (Major.Minor.Patch)
+- **Initial Release:** v0.1.0
+- **Git Tags:** Use Git tags to mark significant releases.
+
+## Setup and Installation
+
+### Prerequisites
+- **Operating System:** Linux
+- **Dependencies:** Bash, `systemctl`, `rsync`, `journalctl`
+
+### Installation Steps
+
+1. **Clone the Repository:**
+   ```bash
+   git clone <private-repo-url>
+2. **Place the Script: Move the script to a directory in your PATH:**
+   ```bash
+   sudo mv sysopctl/src/sysopctl /usr/local/bin/
+   sudo chmod +x /usr/local/bin/sysopctl
+3. **Manual Page Setup: Copy the manual page:**
+   ```bash
+   sudo cp sysopctl/docs/sysopctl.1 /usr/local/man/man1/
+   sudo mandb
+
+4. **Test the Installation: Run a basic command:**
+   ```bash
+   sysopctl --version
+
+## Usage Examples
+
+### Service Management
+- **List all running services:**
+   ```bash
+   sysopctl service list
+
+- **Start a service (e.g., apache2):**
+  ```bash
+  sysopctl service start apache2
+
+### System Monitoring
+- **View system load:**
+  ```bash
+  
+- **Monitor processes:**
+
+
+
+
+   
+
+
 
