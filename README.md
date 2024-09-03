@@ -159,8 +159,38 @@ The project is stored in a private Git repository with the following structure:
 ### System Monitoring
 - **View system load:**
   ```bash
-  
+  sysopctl system load
+
 - **Monitor processes:**
+  ```bash
+  sysopctl process monitor
+
+### Backup Files
+- **Backup /etc directory:**
+  ```bash
+  sysopctl backup /etc
+
+## Further Enhancements
+### Future improvements could include:
+- **Interactive Mode: Allow users to interact with the script in an interactive mode.**
+- **Additional Monitoring Tools: Integrate advanced monitoring tools like htop or glances.**
+- **Automated Backups: Implement a scheduling mechanism for regular backups.**
+
+## Appendix
+### References:
+- **Bash Scripting Guide**
+- **Systemctl Documentation**
+- **Rsync Manual**
+   
+      
+### System Requirements:
+- **Minimum 1GB RAM.**
+- **At least 100MB free disk space for logs and backups.**
+
+This documentation provides a comprehensive overview of the sysopctl project, including its implementation, usage, and future development considerations. The project is version-controlled using Git, and the manual page ensures that users have easy access to detailed command information.
+
+
+This `README.md` provides a detailed overview of the project, including the architecture, setup instructions, usage examples, and more. It is structured to be informative for both developers and end-users.
 
 
 
